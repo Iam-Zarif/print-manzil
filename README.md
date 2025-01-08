@@ -23,14 +23,12 @@ This repository implements:
 #### **Example API URL**:
 ```https
 https://api.razzakfashion.com/?paginate=5&search=Kiehn
-
-
----
+```
 
 ## Task 2: T-shirt with logo adjustments
 
 ### **Features**
-Upload a logo
-Drag, resize, and position it anywhere on the T-shirt
-Download the final image with the logo applied on the T-shirt.
+- **Upload a logo**
+- **Drag, resize, and position it anywhere on the T-shirt**
+- **Download the final image with the logo applied on the T-shirt.**
 
