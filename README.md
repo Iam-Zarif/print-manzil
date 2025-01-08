@@ -1,9 +1,36 @@
-# React + Vite
+# React Custom Table & T-shirt Customization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This repository implements:
+1. **Custom Table in React**: A table that fetches data with pagination and search.
+2. **T-shirt Customization with Logo Upload**: Users can upload and customize logos on a T-shirt image.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# print-manzil
+## Task 1: Custom Table in React
+
+### **Features**
+- **Pagination**: Fetch and display data with pagination.
+- **Search**: Filter data using a search bar.
+- **API Response**: Includes `id`, `name`, `email`, and `created_at`.
+
+### **API Endpoint**
+- **Base URL**: `https://api.razzakfashion.com`
+- **Parameters**:
+  - `paginate`: Number of records per page.
+  - `search`: Filter data based on input.
+
+#### **Example API URL**:
+```https
+https://api.razzakfashion.com/?paginate=5&search=Kiehn
+
+
+---
+
+## Task 2: T-shirt with logo adjustments
+
+### **Features**
+Upload a logo
+Drag, resize, and position it anywhere on the T-shirt
+Download the final image with the logo applied on the T-shirt.
+
